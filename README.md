@@ -39,16 +39,16 @@ LCD Drivers Files:
 
 The LCD Drivers files contain the necessary code to initialize and display data on the LCD screen.
 
-LCD_int.h:
+### LCD_int.h:
 This file is the header file for the LCD Driver functions. It contains the definitions for the various commands and modes used by the LCD. It also defines the ports and pins used for the data and control lines of the LCD.
 
-LCD_config.h:
+### LCD_config.h:
 This file contains the configuration settings for the LCD. It defines the number of rows and columns, the type of the LCD (8-bit or 4-bit), and the data pins used.
 
-LCD_private.h:
+### LCD_private.h:
 This file contains the private definitions used by the LCD driver. It defines the ports and registers used to control the data and control lines of the LCD.
 
-LCD_prog.c:
+### LCD_prog.c:
 This file contains the implementation of the functions defined in the LCD_int.h file. These functions are used to initialize the LCD, write characters to the LCD, and set the cursor position on the LCD. The functions also handle the low-level details of sending commands and data to the LCD.
 
 Main File
