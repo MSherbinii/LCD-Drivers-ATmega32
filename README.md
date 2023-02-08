@@ -1,6 +1,5 @@
-# LCD-Drivers-ATmega32
 
-LCD Screen Driver for Atmega32 Microcontroller
+LCD Screen Driver for ATmega32 Microcontroller
 ==============================================
 
 This project includes multiple files written in C language, which are used in the development of drivers for an LCD Screen to be used with an Atmega32 Microcontroller. The flashing of the files was done using the libusb drivers for the USBasp.
